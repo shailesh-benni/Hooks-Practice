@@ -15,10 +15,13 @@ const UseStateHook = () => {
 
   return (
     <div>
-        <input type="text" onChange={(e)=>setName(e.target.value)}/>
+        <fieldset className="fieldset">
+  <legend className="fieldset-legend">What is your name?</legend>
+  <input type="text" className="input" placeholder="Type here" onChange={(e)=>setName(e.target.value)}/>
+</fieldset>
         <h1> {name} has clicked Counter : {counter} times!!!</h1>
-        <button onClick={increaseCounter}>Increase</button>
-        <button onClick={decreaseCounter}>Decrease</button>
+        <button onClick={increaseCounter} className='btn btn-soft btn-error'>Increase</button>
+        <button onClick={decreaseCounter} className='btn btn-soft btn-success'>Decrease</button>
     </div>
   )
 }
