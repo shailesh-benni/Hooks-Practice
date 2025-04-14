@@ -16,9 +16,9 @@ const UseEffectHook = () => {
     },[counter])
   return (
     <div>
-        <h1>Counter: {counter}</h1>
-        <button onClick={()=>setCounter(counter+1)}> Increase</button>
-        <h1>Counter: {otherCounter}</h1>
+        <h1 className='text-5xl font-bold'>Counter: {counter}</h1>
+        <button className='btn btn-soft btn-success' onClick={()=>setCounter(counter+1)}> Increase</button>
+        <h1 className='text-5xl font-bold'> Counter: {otherCounter}</h1>
         <button onClick={()=>setOtherCounter(otherCounter+5)}> Increase</button>
     </div>
   )

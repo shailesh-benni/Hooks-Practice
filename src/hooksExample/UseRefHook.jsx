@@ -22,7 +22,7 @@ const UseRefHook = () => {
 
   return (
     <div>
-        <input type="text" onChange={(e)=>setName(e.target.value)} />
+        <input className='input' type="text" onChange={(e)=>setName(e.target.value)} />
         
         <h2>Name: {name}</h2>
         {/* <h2> this Count when useState is using : {counter}</h2> */} {/* This leads Infinite */}
@@ -30,8 +30,8 @@ const UseRefHook = () => {
         <h2>Renders: {count.current}</h2>
 
 
-        <input type="text" ref={inputEle} />
-        <button onClick={handleClick}>Increase Width</button>
+        <input className='input' type="text" ref={inputEle} />
+        <button className='btn btn-soft btn-success' onClick={handleClick}>Increase Width</button>
     </div>
   )
 }

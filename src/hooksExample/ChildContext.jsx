@@ -6,7 +6,7 @@ const ChildContext = () => {
     console.log(login);
   return (
     <div>
-        <h1>This is the Component from Child</h1>
+        <h1 className='text-5xl font-bold'>This is the Component from Child</h1>
         
 
     </div>

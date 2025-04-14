@@ -8,7 +8,7 @@ import ChildContext from './ChildContext'
 const UseContextHook = () => {
   return (
     <div>
-      <h1>Below is the child component or used in this component </h1>
+      <h1 className='text-5xl font-bold'>Below is the child component or used in this component </h1>
       <ChildContext/>
     </div>
   )
