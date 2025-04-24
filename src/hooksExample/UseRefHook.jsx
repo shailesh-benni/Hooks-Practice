@@ -22,7 +22,7 @@ const UseRefHook = () => {
 
   return (
     <div>
-        <input className='input' type="text" onChange={(e)=>setName(e.target.value)} />
+        <input className='input input-accent' type="text" onChange={(e)=>setName(e.target.value)} />
         
         <h2>Name: {name}</h2>
         {/* <h2> this Count when useState is using : {counter}</h2> */} {/* This leads Infinite */}
