@@ -1,12 +1,32 @@
-# React + Vite
+# React Hooks Playground 🧠⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains hands-on examples and explanations of **React Hooks**. It's perfect for anyone looking to get started with hooks or strengthen their understanding by experimenting with real code.
 
-Currently, two official plugins are available:
+## 🔥 What are React Hooks?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Hooks are functions that let you use state and other React features in functional components. They were introduced in **React 16.8** and have since become the standard way to manage state, side effects, and more in React apps.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 Hooks Covered
+
+| Hook Name        | Description |
+|------------------|-------------|
+| `useState`       | Add state to functional components |
+| `useEffect`      | Perform side effects like fetching data |
+| `useContext`     | Access context without wrapping in `<Consumer>` |
+| `useRef`         | Access and persist values without causing re-renders |
+| `useReducer`     | Manage complex state logic (like Redux) |
+| `useMemo`        | Optimize performance by memoizing values |
+| `useCallback`    | Memoize functions to avoid unnecessary re-renders |
+| `useLayoutEffect` | Like `useEffect`, but fires synchronously after all DOM mutations |
+| `useImperativeHandle` | Customize instance value exposed to parent via `ref` |
+| `custom hooks`   | Create your own reusable logic hooks |
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/react-hooks-playground.git
