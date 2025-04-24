@@ -29,4 +29,4 @@ React Hooks are functions that let you use state and other React features in fun
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/react-hooks-playground.git
+   git clone https://github.com/shailesh-benni/Hooks-Practice.git
