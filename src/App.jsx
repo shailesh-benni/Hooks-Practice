@@ -6,6 +6,7 @@ import LoginContextProvider from './context/LoginContextProvider'//Achhese code 
 import UseRefHook from './hooksExample/UseRefHook'
 import UseReducerHook from './hooksExample/UseReducerHook'
 import UseLayoutEffect from './hooksExample/UseLayoutEffect'
+import UseMemoHook from './hooksExample/UseMemoHook'
 
 //Konsa Hook Chahiye usko niche app m use karke try karo 
 
@@ -18,7 +19,8 @@ const App = () => {
     // </LoginContextProvider>
     // <UseRefHook/>
     // <UseReducerHook/>
-    <UseLayoutEffect/>
+    // <UseLayoutEffect/>
+    <UseMemoHook/>
   )
 }
 
